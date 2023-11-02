@@ -2,8 +2,6 @@ import cv2
 import mediapipe as mp
 import time
 import numpy as np
-import scipy.ndimage.interpolation as inter
-from scipy.signal import medfilt 
 
 from keras.optimizers import *
 from keras.models import Model

@@ -23,7 +23,7 @@ def realtime(request):
         return StreamingHttpResponse(gen(cam), content_type="multipart/x-mixed-replace;boundary=frame")
     except:
         pass
-    return render(request, "realtime1.html")
+    return render(request, "realtime.html")
 
 def fileRequest(request):
     if request.method == "POST":
